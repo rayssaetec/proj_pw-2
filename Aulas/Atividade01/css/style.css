@@ -1,0 +1,46 @@
+
+body {
+    font-family: 'Khand', sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-size: 18px; 
+    font-weight: thin;
+}
+
+h2 {
+    margin-top: 45px;
+}
+
+.container {
+    padding-top: 90px; /* Spacing above */
+    padding-right: 200px;
+    overflow: hidden;
+}
+
+.img-banner {
+    max-width: 800px; 
+    width: 100%;
+    height: auto;
+}
+
+.img-dazai {
+    max-width: 800px; 
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.img-dazai_biography {
+    max-width: 500px; 
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+hr {
+    border: 1,5px solid #ffffff;
+    opacity: 1;
+}
