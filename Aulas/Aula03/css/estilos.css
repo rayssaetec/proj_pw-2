@@ -1,0 +1,13 @@
+.container{
+    padding-top: 90px; /* Spacing above */
+    padding-right: 200px;
+    overflow: hidden;
+}
+
+h1{
+    color: #17A2B8;
+}
+
+h5{
+    color: #17A2B8;
+}
