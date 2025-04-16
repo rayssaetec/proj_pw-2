@@ -1,0 +1,90 @@
+{
+    "aluno":{
+        "ID1":{
+            "nome": "Lucas",
+            "idade": 15,
+            "email": "teste@teste.com"
+        },
+        "ID2":{
+            "nome": "Ana",
+            "idade": 16,
+            "email": ""
+        },
+        "ID3":{
+            "nome": "Miguel",
+            "idade": 13,
+            "email": "teste0@teste.com"
+        },
+        "ID4":{
+            "nome": "Anajulis",
+            "idade": 14,
+            "email": ""
+        }
+    },
+    "professor":{
+        "P1":{
+            "nome": "Carlos",
+            "disciplina": "Matemática",
+            "formação": "teste1@teste.com"
+        },
+        "P2":{
+            "nome": "Maria",
+            "disciplina": "Português",
+            "email": ""
+        },
+        "P3":{
+            "nome": "Marcos",
+            "disciplina": "História",
+            "formação": "teste2@teste.com"
+        },
+        "P4":{
+            "nome": "Geovana",
+            "disciplina": "Bioloogia",
+            "email": ""
+        }
+    },
+    "curso":{
+        "ADM":{
+            "duracao": "1 ano",
+            "periodo": "noturno",
+            "ensino": ""
+        },
+        "DS":{
+            "duracao": "2 ano",
+            "periodo": "tarde",
+            "ensino": "presencial"
+        },
+        "TDI":{
+            "duracao": "3 ano",
+            "periodo": "manhã",
+            "ensino": ""
+        },
+        "TMA":{
+            "duracao": "4 ano",
+            "periodo": "integral",
+            "ensino": "EAD"
+        }
+    },
+    "etec":{
+        "Martinho di ciero":{
+            "salas": "10",
+            "site": "martinhodiciero.com",
+            "telefone": "1191013-6921"
+        },
+        "Bento Quirino":{
+            "salas": "4",
+            "site": "bentoquirino.com",
+            "telefone": ""
+        },
+        "Benedito Storani":{
+            "salas": "6",
+            "site": "beneditostorani.com",
+            "telefone": "1191013-5431"
+        },
+        "Joao Belarmino":{
+            "salas": "3",
+            "site": "joaobelarmino.com",
+            "telefone": ""
+        }
+    }
+}
