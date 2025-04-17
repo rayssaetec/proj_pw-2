@@ -39,52 +39,82 @@
         },
         "P4":{
             "nome": "Geovana",
-            "disciplina": "Bioloogia",
+            "disciplina": "Biologia",
             "email": ""
         }
     },
     "curso":{
-        "ADM":{
+        "CURSO1":{
+            "curso": "ADM",
             "duracao": "1 ano",
             "periodo": "noturno",
             "ensino": ""
         },
-        "DS":{
+        "CURSO2":{
+            "curso": "DS",
             "duracao": "2 ano",
             "periodo": "tarde",
             "ensino": "presencial"
         },
-        "TDI":{
+        "CURSO3":{
+            "curso": "TDI",
             "duracao": "3 ano",
             "periodo": "manhã",
             "ensino": ""
         },
-        "TMA":{
+        "CURSO4":{
+            "curso": "TMA",
             "duracao": "4 ano",
             "periodo": "integral",
             "ensino": "EAD"
         }
     },
     "etec":{
-        "Martinho di ciero":{
+        "ETEC1":{
+            "nome": "Martinho di ciero",
             "salas": "10",
             "site": "martinhodiciero.com",
             "telefone": "1191013-6921"
         },
-        "Bento Quirino":{
+        "ETEC2":{
+            "nome": "Bento Quirino",
             "salas": "4",
             "site": "bentoquirino.com",
             "telefone": ""
         },
-        "Benedito Storani":{
+        "ETEC3":{
+            "nome": "Benedito Storani",
             "salas": "6",
             "site": "beneditostorani.com",
             "telefone": "1191013-5431"
         },
-        "Joao Belarmino":{
+        "ETEC4":{
+            "nome": "Joao Belarmino",
             "salas": "3",
             "site": "joaobelarmino.com",
             "telefone": ""
+        }
+    },
+    "cidade":{
+        "C1":{
+            "cidade": "Itu",
+            "estado": "SP",
+            "bairro": "Vila Nova"
+        },
+        "C2":{
+            "cidade": "Jundiai",
+            "estado": "",
+            "bairro": ""
+        },
+        "C3":{
+            "cidade": "Cabreúva",
+            "estado": "SP",
+            "bairro": "Jacaré"
+        },
+        "C4":{
+            "cidade": "Campinas",
+            "estado": "",
+            "bairro": ""
         }
     }
 }
