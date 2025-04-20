@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    padding: 60px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.scroll-btn {
+    margin-top: 30px;
+}
+
+
+nav.scrolled {
+    background-color: #333 !important;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.custom-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: auto;
+    padding: 30px;
+    background-color: #fff;
+}
+
+
+#home h1 {
+    font-size: 4rem;
+    color: black;
+    font-family: 'Mona Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+p {
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Mona Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    .custom-card {
+        width: 90%;
+        padding: 20px;
+    }
+}
