@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #1e202c;
+}
+
+
 
 section {
     padding: 60px 0;
@@ -34,19 +39,19 @@ nav.scrolled {
 
 
 .custom-card {
-    border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 800px;
     height: auto;
     padding: 30px;
-    background-color: #fff;
+    background-color: #31323e; /* tom escuro da sua paleta */
+    border: 1px solid #60519b; /* roxo da paleta para destacar */
 }
 
 
-#home h1 {
+h1 {
     font-size: 4rem;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Mona Sans', sans-serif;
     font-weight: 700;
 }
@@ -54,7 +59,7 @@ nav.scrolled {
 
 p {
     font-size: 1.3rem;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Mona Sans', sans-serif;
     font-weight: 400;
 }
@@ -100,7 +105,16 @@ p {
     width: 100%; /* Garante que os campos do formulário ocupem 100% da largura */
 }
 
+.btn-roxo {
+    background-color: #60519b;
+    color: #ffffff;
+}
 
+.btn-roxo:hover,
+.btn-roxo:focus,
+.btn-roxo:active {
+    color: #ffffff;
+}
 
 @media (max-width: 768px) {
     #home h1 {
