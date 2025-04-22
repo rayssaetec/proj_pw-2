@@ -17,6 +17,10 @@ section {
     text-align: center;
 }
 
+label {
+    color: white;
+    font-weight: 500; /* opcional, para destacar um pouco mais */
+}
 
 .scroll-btn {
     margin-top: 30px;
