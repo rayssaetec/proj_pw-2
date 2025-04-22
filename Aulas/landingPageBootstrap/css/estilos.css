@@ -22,9 +22,16 @@ section {
     margin-top: 30px;
 }
 
+.navbar {
+    transition: all 0.4s ease;
+    transform: translateY(-100%);
+    opacity: 0;
+    background-color: #60519b;
+}
 
 nav.scrolled {
-    background-color: #333 !important;
+    transform: translateY(0);
+    opacity: 1;
 }
 
 
