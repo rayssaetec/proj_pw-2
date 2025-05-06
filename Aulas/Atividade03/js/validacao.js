@@ -1,8 +1,11 @@
+//Validação simples
+//$("#formExemplo").validate();
+
 $("#formExemplo").validate({
     debug: true,
-    rules: {
-        txtemail: {
-            required: true,
+    rules:{
+        txtemail:{
+            required: true, 
             email: true,
         },
         txtnome: {
@@ -10,39 +13,50 @@ $("#formExemplo").validate({
             rangelength: [2, 50],
         },
         txtfilho: {
-            required: true,
             min: 0,
             max: 10,
+            required
+            //range: [18, 100]
         },
-        txtadmissao: {
-            required: true,
+        txtdate:{
+            required: true, 
             date: true,
         },
-        txturl: {
-            required: true,
+        txturl:{
+            required: true, 
             url: true,
         },
+        txtsalario: {
+            min: 2000,
+            max: 10000,
+            //range: [18, 100]
+        },
     },
-    messages: {
-        txtemail: {
+    messages:{
+        txtemail:{
             required: "E-mail obrigatório",
             email: "Formato inválido do e-mail",
         },
         txtnome: {
             required: "Nome obrigatório",
-            rangelength: "Nome deve ter entre 2 e 50 caracteres",
+            minlength: "Exigido 2 caracteres",
+            maxlength: "Até 50 caracteres",
         },
         txtfilho: {
             required: "Nº de filhos obrigatório",
             min: "Valor mínimo: 0",
             max: "Valor máximo: 10",
         },
-        txtadmissao: {
-            required: "Data de Admissão obrigatória",
+        txtdate:{
+            required: "Data de admissão obrigatório",
         },
-        txturl: {
-            required: "URL obrigatória",
-            url: "Formato inválido da URL",
+        txturl:{
+            required: "Url obrigatório",
+            url: "Formato inválido do url",
         },
+        txtsalario: {
+            min: "Valor mínimo: 2000",
+            max: "Valor máximo: 10000",
+        }
     }
 });
