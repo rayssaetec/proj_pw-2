@@ -56,12 +56,24 @@
         <h1 class="mt-5">Cálculo de Salário</h1>
         <form id="formulario" class="mt-4">
             <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite o nome">
+            </div>
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="number" class="form-control" id="idade" placeholder="Digite a idade">
+            </div>
+            <div class="form-group">
                 <label for="salario">Salário Bruto:</label>
                 <input type="number" class="form-control" id="salario" placeholder="Digite o salário bruto">
             </div>
             <div class="form-group">
                 <label for="descontos">Descontos:</label>
                 <input type="number" class="form-control" id="descontos" placeholder="Digite os descontos">
+            </div>
+            <div class="form-group">
+                <label for="dependentes">Dependentes:</label>
+                <input type="select" class="form-control" id="dependentes" placeholder="Digite o número de dependentes">
             </div>
             <button type="button" class="btn btn-primary" onclick="calcularSalario()">Calcular Salário Líquido</button>
         </form>
