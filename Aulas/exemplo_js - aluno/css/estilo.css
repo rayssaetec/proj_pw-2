@@ -70,6 +70,12 @@ section .section-title {
     width: auto;
 }
 
+.container{
+    padding-top: 90px; /* Spacing above */
+    padding-right: 200px;
+    overflow: hidden;
+}
+
 @media (max-width:767px){
 	#footer h5 {
     padding-left: 0;
