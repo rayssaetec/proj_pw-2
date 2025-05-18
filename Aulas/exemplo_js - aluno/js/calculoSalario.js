@@ -6,7 +6,7 @@ $("#calcular").click(function () {
     var inss = parseFloat(rsalario * 0.08).toFixed(2);
     var valeTransporte = parseFloat(rsalario * 0.05).toFixed(2);
     bonus = (idade > 50) ? bonus = 300 : bonus = 200;
-    var salarioLiquido = parseFloat(rsalario - inss - valeTransporte + bonus).toFixed(2);
+    var salarioLiquido = parseFloat(rsalario - inss - valeTransporte + bonus + 50*rdependentes).toFixed(2);
     
 
     $("#rnome")
