@@ -65,6 +65,11 @@ section .section-title {
     font-weight: 700;
 }
 
+.navbar-icon{
+    height: 28px;
+    width: auto;
+}
+
 @media (max-width:767px){
 	#footer h5 {
     padding-left: 0;
@@ -73,3 +78,4 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+
