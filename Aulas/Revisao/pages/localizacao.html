@@ -1,124 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Localização</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Localização</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Revisão</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Revisão</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="integrantes.html">Integrantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="localizacao.html">Localização</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <main>
+      <h1>Benefícios</h1>
+      <!--Source Layout -> Columns -> Column wrapping-->
+        <div class="row mb-3">
+          <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../images/medicina.jpg" class="card-img-top" style="height: 15rem;" alt="Medicina">
+              <div class="card-body">
+                <p class="card-text">Com a ajuda da Inteligência Artificial, o diagnóstico de exames passa a ser feito
+                  com mais velocidade e precisão. Na pandemia, a IA vem sendo de extrema importância para o
+                  monitoramento de infectados e vacinados, além de auxílio na produção de EPIs para profissionais da
+                  Saúde.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card" style="width: 18rem;">
+              <img src="../images/transporte.png" class="card-img-top" style="height: 15rem;"alt="Transporte">
+              <div class="card-body">
+                <p class="card-text">Para o transporte público, a IA auxilia no rastreamento e previsão de horários. No
+                  transporte privado, essa tecnologia com o auxílio de GPS escolhe as melhores rotas.
+                  O transporte de cargas também recebe o suporte da Inteligência Artificial que ajuda a aperfeiçoar a
+                  logística, fazendo com que a encomenda chegue o mais rápido.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--Localização-->
+      <div class="card mb-3">
+        <div class="card-body">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.304234737327!2d-47.20515972545756!3d-23.085956244297464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b4b183d3173b%3A0xe4e10e5dd84bd49e!2sFatec!5e0!3m2!1spt-BR!2sbr!4v1716983275274!5m2!1spt-BR!2sbr"
+            width="100%" height="315" style="border:0;" allowfullscreen loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Se inscreva em nossa newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div data-mdb-input-init class="form-outline mb-4">
+                <input type="email" id="form5Example26" class="form-control" />
+                <label class="form-label" for="form5Example26">Endereço de e-mail</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button data-mdb-ripple-init type="submit" class="btn btn-dark mb-4">
+                Inscreva-se
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="integrantes.html">Integrantes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="localizacao.html">Localização</a>
-                  </li>
-                </ul>
-              </div>
             </div>
-          </nav>
-    </header>
-    <div class="container">
-        <main>
-            <div class="container">
-                <div class="row mb-3">
-                  <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../images/medicina.jpg" class="card-img-top" alt="Medicina">
-                        <div class="card-body">
-                          <p class="card-text">Com a ajuda da Inteligência Artificial, o diagnóstico de exames passa a ser feito com mais velocidade e precisão. Na pandemia, a IA vem sendo de extrema importância para o monitoramento de infectados e vacinados, além de auxílio na produção de EPIs para profissionais da Saúde.</p>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../images/transporte.png" class="card-img-top" alt="Transporte">
-                        <div class="card-body">
-                          <p class="card-text">Para o transporte público, a IA auxilia no rastreamento e previsão de horários. No transporte privado, essa tecnologia com o auxílio de GPS escolhe as melhores rotas, minimizando os riscos de enfrentar congestionamentos.
-                            O transporte de cargas também recebe o suporte da Inteligência Artificial que ajuda a aperfeiçoar a logística, fazendo com que a encomenda chegue o mais rápido possível. Além disso, garante que as verduras e legumes cheguem frescos aos supermercados.</p>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <!--Localização-->
-            <div class="card mb-3">
-                <div class="card-body">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.304234737327!2d-47.20515972545756!3d-23.085956244297464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b4b183d3173b%3A0xe4e10e5dd84bd49e!2sFatec!5e0!3m2!1spt-BR!2sbr!4v1716983275274!5m2!1spt-BR!2sbr"
-                        width="100%"
-                        height="315"
-                        style="border:0;"
-                        allowfullscreen
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                </div>
-            </div>
-        </main>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
     </div>
-    <footer class="bg-body-tertiary text-center">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Form -->
-          <section class="">
-            <form action="">
-              <!--Grid row-->
-              <div class="row d-flex justify-content-center">
-                <!--Grid column-->
-                <div class="col-auto">
-                  <p class="pt-2">
-                    <strong>Se inscreva em nossa newsletter</strong>
-                  </p>
-                </div>
-                <!--Grid column-->
-      
-                <!--Grid column-->
-                <div class="col-md-5 col-12">
-                  <!-- Email input -->
-                  <div data-mdb-input-init class="form-outline mb-4">
-                    <input type="email" id="form5Example26" class="form-control" />
-                    <label class="form-label" for="form5Example26">Endereço de e-mail</label>
-                  </div>
-                </div>
-                <!--Grid column-->
-      
-                <!--Grid column-->
-                <div class="col-auto">
-                  <!-- Submit button -->
-                  <button data-mdb-ripple-init type="submit" class="btn btn-dark mb-4">
-                    Inscreva-se
-                  </button>
-                </div>
-                <!--Grid column-->
-              </div>
-              <!--Grid row-->
-            </form>
-          </section>
-          <!-- Section: Form -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2020 Copyright:
-          <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
